@@ -15,10 +15,10 @@ public class TestUtil {
     }
 
     public static List<Order> buildOrdersColombia() {
-        List<Order> ordersPeru = new ArrayList<Order>();
-        ordersPeru.add(new Order("CO", 10L));
-        ordersPeru.add(new Order("CO", 10L));
-        return ordersPeru;
+        List<Order> ordersColombia = new ArrayList<Order>();
+        ordersColombia.add(new Order("CO", 10L));
+        ordersColombia.add(new Order("CO", 10L));
+        return ordersColombia;
     }
 
 }

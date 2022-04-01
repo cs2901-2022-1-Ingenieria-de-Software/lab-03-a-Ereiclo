@@ -17,14 +17,14 @@ public class Tax {
         }
     }
 
-    void setP_tax(double _p_tax){p_tax = _p_tax;}
-    void setBr_tax(double _br_tax){br_tax = _br_tax;}
-    void setCl_tax(double _cl_tax){cl_tax = _cl_tax;}
+    public void setP_tax(double _p_tax){p_tax = _p_tax;}
+    public void setBr_tax(double _br_tax){br_tax = _br_tax;}
+    public void setCl_tax(double _cl_tax){cl_tax = _cl_tax;}
 
 
-    double getP_tax(){return p_tax;}
-    double getBr_tax(){return br_tax;}
-    double getCl_tax(){return cl_tax;}
+    public double getP_tax(){return p_tax;}
+    public double getBr_tax(){return br_tax;}
+    public double getCl_tax(){return cl_tax;}
 
 
 
