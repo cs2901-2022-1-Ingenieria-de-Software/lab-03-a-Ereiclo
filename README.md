@@ -1,5 +1,9 @@
 # LAB 03 A
 
+Alumno:
+
+- Eric Bracamonte
+
 Contexto:
 
 Se esta desarrollando una aplicacion que calcule el total con impuestos para generar un reporte para gerencia y revisar el presupuesto.

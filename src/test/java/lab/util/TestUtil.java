@@ -11,6 +11,7 @@ public class TestUtil {
         List<Order> ordersPeru = new ArrayList<Order>();
         ordersPeru.add(new Order("PE", 10L));
         ordersPeru.add(new Order("PE", 10L));
+        ordersPeru.add(new Order("PE", 15L));
         return ordersPeru;
     }
 

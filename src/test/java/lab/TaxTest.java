@@ -73,4 +73,12 @@ public class TaxTest {
 
     }
 
+    public void testNullInput(){
+
+        double result = tax.calculateTax("");
+
+        Assert.assertEquals(result,0.0);
+
+    }
+
 }

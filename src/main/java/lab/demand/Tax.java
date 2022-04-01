@@ -12,9 +12,12 @@ public class Tax {
             return p_tax;
         } else if (country.equals("BR")) {
             return br_tax;
-        } else {
+        } else if(country.equals("CL")){
             return cl_tax;
+        }else {
+            return 0.0;
         }
+
     }
 
     public void setP_tax(double _p_tax){p_tax = _p_tax;}

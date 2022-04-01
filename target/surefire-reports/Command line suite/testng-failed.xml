@@ -3,12 +3,12 @@
 <suite name="Failed suite [Command line suite]" verbose="0">
   <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
-      <class name="lab.TaxTest">
+      <class name="lab.ManageDemandTest">
         <methods>
-          <include name="testCalculateTaxPD"/>
           <include name="setup"/>
+          <include name="test_AllOrdersFromPeru"/>
         </methods>
-      </class> <!-- lab.TaxTest -->
+      </class> <!-- lab.ManageDemandTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

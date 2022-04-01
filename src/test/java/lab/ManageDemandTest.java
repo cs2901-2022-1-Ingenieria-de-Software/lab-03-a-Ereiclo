@@ -27,7 +27,7 @@ public class ManageDemandTest {
     public void test_AllOrdersFromPeru() {
         List<Order> ordersFromPeru = TestUtil.buildOrdersPeru();
         double result = demand.calculateTotal(ordersFromPeru);
-        Assert.assertEquals(Math.round(result), 7.0);
+        Assert.assertEquals(Math.round(result), 19.0);
     }
 
     // Add Tests !!
