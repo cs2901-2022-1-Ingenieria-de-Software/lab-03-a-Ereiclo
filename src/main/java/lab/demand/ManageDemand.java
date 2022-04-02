@@ -11,7 +11,8 @@ public class ManageDemand {
     }
 
 
-    double totalTaxes(List<Order> orders){
+    public double totalTaxes(List<Order> orders){
+        if(orders.size() == 0) return 0.0;
         // Calculate Taxes
         double taxes = 0.0;
         for (Order order : orders) {
@@ -20,7 +21,8 @@ public class ManageDemand {
         }
         return taxes;
     }
-    double totalQuantity(List<Order> orders){
+    public double totalQuantity(List<Order> orders){
+        if(orders.size() == 0) return 0.0;
         // Calculate Total
         double quantities = 0.0;
         for (Order order : orders) {
@@ -38,7 +40,7 @@ public class ManageDemand {
         return quantities * taxes;
     }
 
-    void changeTaxesValue(double tColombia, double tPeru, double tBrazil){
+    public void changeTaxesValue(double tColombia, double tPeru, double tBrazil){
         tax.setBr_tax(tBrazil);
         tax.setCl_tax(tColombia);
         tax.setP_tax(tPeru);
@@ -48,9 +50,11 @@ public class ManageDemand {
     public double calculateTotalA(List<Order> orders, double aColombia, double aPeru, double aBrazil) {
         // Calculate additionals by country
         changeTaxesValue(aColombia, aPeru,aBrazil);
+        double result = calculateTotal(orders);
+        changeTaxesValue(0.0,0.18,0.12);
 
 
-        return calculateTotal(orders);
+        return result;
 
     }
 

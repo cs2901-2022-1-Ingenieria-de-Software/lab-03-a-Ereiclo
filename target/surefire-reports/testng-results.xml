@@ -1,54 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-31T21:47:45 PET" name="Command line suite" finished-at="2022-03-31T21:47:45 PET" duration-ms="24">
+  <suite started-at="2022-04-01T19:41:25 PET" name="Command line suite" finished-at="2022-04-01T19:41:25 PET" duration-ms="40">
     <groups>
     </groups>
-    <test started-at="2022-03-31T21:47:45 PET" name="Command line test" finished-at="2022-03-31T21:47:45 PET" duration-ms="24">
+    <test started-at="2022-04-01T19:41:25 PET" name="Command line test" finished-at="2022-04-01T19:41:25 PET" duration-ms="40">
       <class name="lab.TaxTest">
-        <test-method signature="testCalculateTaxBRD()[pri:0, instance:lab.TaxTest@35d176f7]" started-at="2022-03-31T21:47:45 PET" name="testCalculateTaxBRD" finished-at="2022-03-31T21:47:45 PET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:lab.TaxTest@63e2203c]" started-at="2022-04-01T19:41:25 PET" name="setup" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCalculateTaxBRD()[pri:0, instance:lab.TaxTest@63e2203c]" started-at="2022-04-01T19:41:25 PET" name="testCalculateTaxBRD" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalculateTaxBRD -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:lab.TaxTest@35d176f7]" started-at="2022-03-31T21:47:45 PET" name="setup" finished-at="2022-03-31T21:47:45 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testCalculateTaxCLD()[pri:0, instance:lab.TaxTest@35d176f7]" started-at="2022-03-31T21:47:45 PET" name="testCalculateTaxCLD" finished-at="2022-03-31T21:47:45 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCalculateTaxCLD -->
-        <test-method signature="testCalculateTaxBRN()[pri:0, instance:lab.TaxTest@35d176f7]" started-at="2022-03-31T21:47:45 PET" name="testCalculateTaxBRN" finished-at="2022-03-31T21:47:45 PET" duration-ms="0" status="PASS">
+        <test-method signature="testCalculateTaxBRN()[pri:0, instance:lab.TaxTest@63e2203c]" started-at="2022-04-01T19:41:25 PET" name="testCalculateTaxBRN" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalculateTaxBRN -->
-        <test-method signature="testCalculateTaxCLN()[pri:0, instance:lab.TaxTest@35d176f7]" started-at="2022-03-31T21:47:45 PET" name="testCalculateTaxCLN" finished-at="2022-03-31T21:47:45 PET" duration-ms="0" status="PASS">
+        <test-method signature="testCalculateTaxCLD()[pri:0, instance:lab.TaxTest@63e2203c]" started-at="2022-04-01T19:41:25 PET" name="testCalculateTaxCLD" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTaxCLD -->
+        <test-method signature="testCalculateTaxCLN()[pri:0, instance:lab.TaxTest@63e2203c]" started-at="2022-04-01T19:41:25 PET" name="testCalculateTaxCLN" finished-at="2022-04-01T19:41:25 PET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalculateTaxCLN -->
-        <test-method signature="testCalculateTaxPD()[pri:0, instance:lab.TaxTest@35d176f7]" started-at="2022-03-31T21:47:45 PET" name="testCalculateTaxPD" finished-at="2022-03-31T21:47:45 PET" duration-ms="0" status="PASS">
+        <test-method signature="testCalculateTaxPD()[pri:0, instance:lab.TaxTest@63e2203c]" started-at="2022-04-01T19:41:25 PET" name="testCalculateTaxPD" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalculateTaxPD -->
-        <test-method signature="testCalculateTaxPN()[pri:0, instance:lab.TaxTest@35d176f7]" started-at="2022-03-31T21:47:45 PET" name="testCalculateTaxPN" finished-at="2022-03-31T21:47:45 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCalculateTaxPN -->
-        <test-method signature="testNullInput()[pri:0, instance:lab.TaxTest@35d176f7]" started-at="2022-03-31T21:47:45 PET" name="testNullInput" finished-at="2022-03-31T21:47:45 PET" duration-ms="0" status="PASS">
+        <test-method signature="testNullInput()[pri:0, instance:lab.TaxTest@63e2203c]" started-at="2022-04-01T19:41:25 PET" name="testNullInput" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNullInput -->
+        <test-method signature="testCalculateTaxPN()[pri:0, instance:lab.TaxTest@63e2203c]" started-at="2022-04-01T19:41:25 PET" name="testCalculateTaxPN" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTaxPN -->
       </class> <!-- lab.TaxTest -->
       <class name="lab.ManageDemandTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:lab.ManageDemandTest@551aa95a]" started-at="2022-03-31T21:47:45 PET" name="setup" finished-at="2022-03-31T21:47:45 PET" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="setup" finished-at="2022-04-01T19:41:25 PET" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_AllOrdersFromPeru()[pri:0, instance:lab.ManageDemandTest@551aa95a]" started-at="2022-03-31T21:47:45 PET" name="test_AllOrdersFromPeru" finished-at="2022-03-31T21:47:45 PET" duration-ms="2" status="PASS">
+        <test-method signature="test_AllOrdersA()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_AllOrdersA" finished-at="2022-04-01T19:41:25 PET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AllOrdersA -->
+        <test-method signature="test_AllOrdersANULL()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_AllOrdersANULL" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AllOrdersANULL -->
+        <test-method signature="test_AllOrdersFromColombia()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_AllOrdersFromColombia" finished-at="2022-04-01T19:41:25 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AllOrdersFromColombia -->
+        <test-method signature="test_AllOrdersFromBrazil()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_AllOrdersFromBrazil" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AllOrdersFromBrazil -->
+        <test-method signature="test_AllOrdersMix()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_AllOrdersMix" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AllOrdersMix -->
+        <test-method signature="test_AllOrdersFromPeru()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_AllOrdersFromPeru" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_AllOrdersFromPeru -->
+        <test-method signature="test_totaTaxesNULL()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totaTaxesNULL" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totaTaxesNULL -->
+        <test-method signature="test_AllOrdersNULL()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_AllOrdersNULL" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AllOrdersNULL -->
+        <test-method signature="test_totalQuantityBR()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalQuantityBR" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalQuantityBR -->
+        <test-method signature="test_totalQuantityMix()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalQuantityMix" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalQuantityMix -->
+        <test-method signature="test_totalQuantityCL()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalQuantityCL" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalQuantityCL -->
+        <test-method signature="test_totalQuantityNULL()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalQuantityNULL" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalQuantityNULL -->
+        <test-method signature="test_totalQuantityPE()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalQuantityPE" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalQuantityPE -->
+        <test-method signature="test_totalTaxesBR()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalTaxesBR" finished-at="2022-04-01T19:41:25 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalTaxesBR -->
+        <test-method signature="test_totalTaxesCL()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalTaxesCL" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalTaxesCL -->
+        <test-method signature="test_totalTaxesMix()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalTaxesMix" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalTaxesMix -->
+        <test-method signature="test_totalTaxesPE()[pri:0, instance:lab.ManageDemandTest@3224f60b]" started-at="2022-04-01T19:41:25 PET" name="test_totalTaxesPE" finished-at="2022-04-01T19:41:25 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_totalTaxesPE -->
       </class> <!-- lab.ManageDemandTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
