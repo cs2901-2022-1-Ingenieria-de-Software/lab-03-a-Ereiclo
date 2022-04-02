@@ -1,0 +1,49 @@
+
+8lab.demand.ManageDemand#totalQuantity(Ljava/util/List;)D`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java ("7*±
+2`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (Ž
+‹
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (
+orderlab.demand.Order"__id*
+""°
+­
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (
+orderlab.demand.Order"
+__arrayGet*
+
+ordersjava.util.List*
+""*
+3
+1*Ä
+3`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (×Ô
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (-
+%1java.lang.Long".lab.demand.Order#getQuantity()Ljava/lang/Long;*
+
+orderlab.demand.Order2getQuantity()*
+2*Ñ
+6`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java& ()"j
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (*
+""*œ
+7`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (¬©
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (	
+%0int"java.util.List#size()I*
+
+ordersjava.util.List2size()*
+2
+6*Ñ
+1`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java   ("j
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java   (
+"":
+ordersjava.util.ListB
+lab.demand.ManageDemand

@@ -1,0 +1,57 @@
+
+0lab.demand.Tax#calculateTax(Ljava/lang/String;)DW
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java
+ 
+("7*¿
+2W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java ("a
+W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java (
+""*Ã
+3W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java (ÜÙ
+W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java (&
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+countryjava.lang.String*
+CL2equals(Ljava/lang/Object;)*
+2
+1*¿
+4W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java ("a
+W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java (
+""*Ã
+5W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java (ÜÙ
+W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java ('
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+countryjava.lang.String*
+BR2equals(Ljava/lang/Object;)*
+3
+4*¿
+6W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java ("a
+W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java (
+""*Ã
+7W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java (ÜÙ
+W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java ( 
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+countryjava.lang.String*
+PE2equals(Ljava/lang/Object;)*
+5
+6*¿
+1W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java ("a
+W
+M/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/Tax.java (
+"":
+countryjava.lang.StringB
+lab.demand.Tax

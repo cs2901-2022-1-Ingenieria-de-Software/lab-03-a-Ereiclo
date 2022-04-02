@@ -8,7 +8,7 @@ import lab.demand.Order;
 public class TestUtil {
 
     public static List<Order> buildOrdersPeru() {
-        List<Order> ordersPeru = new ArrayList<Order>();
+        List<Order> ordersPeru = new ArrayList<>();
         ordersPeru.add(new Order("PE", 10L));
         ordersPeru.add(new Order("PE", 10L));
         ordersPeru.add(new Order("PE", 15L));
@@ -16,7 +16,7 @@ public class TestUtil {
     }
 
     public static List<Order> buildOrdersColombia() {
-        List<Order> ordersColombia = new ArrayList<Order>();
+        List<Order> ordersColombia = new ArrayList<>();
         ordersColombia.add(new Order("CL", 10L));
         ordersColombia.add(new Order("CL", 13L));
         ordersColombia.add(new Order("CL", 9L));
@@ -25,7 +25,7 @@ public class TestUtil {
     }
 
     public static List<Order> buildOrdersBrazil() {
-        List<Order> ordersBrazil = new ArrayList<Order>();
+        List<Order> ordersBrazil = new ArrayList<>();
         ordersBrazil.add(new Order("BR", 7L));
         ordersBrazil.add(new Order("BR", 31L));
         ordersBrazil.add(new Order("BR", 9L));
@@ -35,7 +35,7 @@ public class TestUtil {
 
 
     public static List<Order> buildOrdersMix() {
-        List<Order> general_orders = new ArrayList<Order>();
+        List<Order> general_orders = new ArrayList<>();
         general_orders.add(new Order("BR", 7L));
         general_orders.add(new Order("BR", 31L));
         general_orders.add(new Order("BR", 9L));

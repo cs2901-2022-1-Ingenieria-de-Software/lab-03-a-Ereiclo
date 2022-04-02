@@ -1,0 +1,35 @@
+
+=lab.demand.ManageDemand#calculateTotalA(Ljava/util/List;DDD)D`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java2 2(!"1*½
+1`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java4 4(íê
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java4 4(2
+
+%0void".lab.demand.ManageDemand#changeTaxesValue(DDD)V*
+lab.demand.ManageDemand*
+""*
+""*
+""2changeTaxesValue(DDD)‰†
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java5 5(.
+%1double"9lab.demand.ManageDemand#calculateTotal(Ljava/util/List;)D*
+lab.demand.ManageDemand*
+
+ordersjava.util.List2 calculateTotal(Ljava/util/List;)íê
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java6 6('
+
+%2void".lab.demand.ManageDemand#changeTaxesValue(DDD)V*
+lab.demand.ManageDemand*
+""*
+""*
+""2changeTaxesValue(DDD)"j
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java9 9(
+"":
+ordersjava.util.List:
+"":
+"":
+""B
+lab.demand.ManageDemand

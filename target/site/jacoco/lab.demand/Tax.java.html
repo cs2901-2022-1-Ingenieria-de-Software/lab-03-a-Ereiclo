@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Tax.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">lab2</a> &gt; <a href="index.source.html" class="el_package">lab.demand</a> &gt; <span class="el_source">Tax.java</span></div><h1>Tax.java</h1><pre class="source lang-java linenums">package lab.demand;
+
+<span class="fc" id="L3">public class Tax {</span>
+
+
+<span class="fc" id="L6">    double p_tax = 0.18;</span>
+<span class="fc" id="L7">    double br_tax = 0.12;</span>
+<span class="fc" id="L8">    double cl_tax = 0.0;</span>
+
+    public double calculateTax(String country) {
+<span class="fc bfc" id="L11" title="All 2 branches covered.">        if (country.equals(&quot;PE&quot;)) {</span>
+<span class="fc" id="L12">            return p_tax;</span>
+<span class="fc bfc" id="L13" title="All 2 branches covered.">        } else if (country.equals(&quot;BR&quot;)) {</span>
+<span class="fc" id="L14">            return br_tax;</span>
+<span class="fc bfc" id="L15" title="All 2 branches covered.">        } else if(country.equals(&quot;CL&quot;)){</span>
+<span class="fc" id="L16">            return cl_tax;</span>
+        }else {
+<span class="fc" id="L18">            return 0.0;</span>
+        }
+
+    }
+
+<span class="fc" id="L23">    public void setP_tax(double _p_tax){p_tax = _p_tax;}</span>
+<span class="fc" id="L24">    public void setBr_tax(double _br_tax){br_tax = _br_tax;}</span>
+<span class="fc" id="L25">    public void setCl_tax(double _cl_tax){cl_tax = _cl_tax;}</span>
+
+
+<span class="nc" id="L28">    public double getP_tax(){return p_tax;}</span>
+<span class="nc" id="L29">    public double getBr_tax(){return br_tax;}</span>
+<span class="nc" id="L30">    public double getCl_tax(){return cl_tax;}</span>
+
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

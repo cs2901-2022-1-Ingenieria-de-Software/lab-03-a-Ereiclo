@@ -1,0 +1,62 @@
+
+5lab.demand.ManageDemand#totalTaxes(Ljava/util/List;)D`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java ("7*±
+2`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (Ž
+‹
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (
+orderlab.demand.Order"__id*
+""°
+­
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (
+orderlab.demand.Order"
+__arrayGet*
+
+ordersjava.util.List*
+""*
+3
+1*ì
+3`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (§
+¤
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (!
+%1lab.demand.Tax"__id*$*"
+lab.demand.ManageDemand"
+taxÙÖ
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java/ (A
+%2java.lang.String"/lab.demand.Order#getCountry()Ljava/lang/String;*
+
+orderlab.demand.Order2getCountry()ùö
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (B
+%3double"0lab.demand.Tax#calculateTax(Ljava/lang/String;)D*
+
+%1lab.demand.Tax*
+
+%2java.lang.String2 calculateTax(Ljava/lang/String;)*
+2*Ñ
+6`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java& ()"j
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (*
+""*œ
+7`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (¬©
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (	
+%0int"java.util.List#size()I*
+
+ordersjava.util.List2size()*
+2
+6*Ñ
+1`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java ("j
+`
+V/home/ereiclo/IdeaProjects/lab-03-a-Ereiclo/src/main/java/lab/demand/ManageDemand.java (
+"":
+ordersjava.util.ListB
+lab.demand.ManageDemand

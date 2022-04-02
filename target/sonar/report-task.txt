@@ -1,0 +1,7 @@
+organization=cs2901-2022-1-ingenieria-de-software
+projectKey=cs2901-2022-1-Ingenieria-de-Software_PROJECT_NAME
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.27985
+dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2022-1-Ingenieria-de-Software_PROJECT_NAME
+ceTaskId=AX_n6y4Y5xg41FafWnou
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX_n6y4Y5xg41FafWnou

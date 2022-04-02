@@ -12,17 +12,17 @@ public class ManageDemand {
 
 
     public double totalTaxes(List<Order> orders){
-        if(orders.size() == 0) return 0.0;
+        if(orders.isEmpty()) return 0.0;
         // Calculate Taxes
         double taxes = 0.0;
         for (Order order : orders) {
-            double tax = this.tax.calculateTax(order.getCountry());
-            taxes += tax;
+            double actual_tax = this.tax.calculateTax(order.getCountry());
+            taxes += actual_tax;
         }
         return taxes;
     }
     public double totalQuantity(List<Order> orders){
-        if(orders.size() == 0) return 0.0;
+        if(orders.isEmpty() ) return 0.0;
         // Calculate Total
         double quantities = 0.0;
         for (Order order : orders) {
